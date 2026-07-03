@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IPython Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Large datasets and raw files (excluding downsampled ones)
+/Data/
+Customer_Transaction_Dashboard/data/train_subset.csv
+Customer_Transaction_Dashboard/data/train.csv
+Customer_Transaction_Dashboard/data/test.csv
+
+# Saved models / Scalers if too heavy
+Customer_Transaction_Dashboard/models/saved_model.pkl
+
+# OS generated
+.DS_Store
+Thumbs.db

@@ -1,0 +1,135 @@
+/* Style variables for student-like clean look */
+:root {
+    --bg-color: #f8f9fa;
+    --card-bg: #ffffff;
+    --text-color: #333333;
+    --border-color: #dee2e6;
+    --accent-blue: #0056b3;
+    --accent-blue-hover: #004085;
+    --shadow-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Dark mode overrides */
+[data-theme="dark"] {
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --text-color: #e0e0e0;
+    --border-color: #333333;
+    --accent-blue: #375a7f;
+    --accent-blue-hover: #2b4764;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Fixed left sidebar styling */
+.sidebar-custom {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    padding: 2rem 1rem;
+    background-color: var(--card-bg);
+    border-right: 1px solid var(--border-color);
+    box-shadow: 2px 0 5px var(--shadow-color);
+    z-index: 100;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.sidebar-custom .nav-link {
+    color: var(--text-color);
+    font-weight: 500;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidebar-custom .nav-link:hover {
+    background-color: var(--bg-color);
+    color: var(--accent-blue);
+}
+
+.sidebar-custom .nav-link.active {
+    background-color: var(--accent-blue);
+    color: #ffffff !important;
+}
+
+/* Main content wrapper */
+.content-custom {
+    margin-left: 250px;
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+/* Custom cards with soft shadow and rounded corners */
+.card-custom {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s, border-color 0.3s;
+}
+
+.card-custom:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* KPI cards */
+.kpi-card {
+    text-align: center;
+}
+
+.kpi-val {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--accent-blue);
+    margin: 0.5rem 0;
+}
+
+.kpi-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #6c757d;
+}
+
+/* Header style */
+.header-custom {
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Subtitle and headings */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+}
+
+/* Footer style */
+.footer-custom {
+    text-align: center;
+    padding: 1.5rem;
+    border-top: 1px solid var(--border-color);
+    color: #6c757d;
+    font-size: 0.85rem;
+    margin-top: 3rem;
+}
+
+/* Theme toggle button position */
+.theme-toggle-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+}
