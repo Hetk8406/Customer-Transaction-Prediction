@@ -2,6 +2,32 @@
 
 This is a comprehensive Data Science capstone project focused on predicting whether a customer will make a transaction in the future. The project includes exploratory data analysis, class imbalance handling, model training/evaluation, and a professional interactive Dash analytics application.
 
+## Dashboard Preview & Screenshots
+
+### 1. Dashboard Home & System Overview
+![Dashboard Home](./Customer%20Transaction%20Prediction/DS6-Project-1.png)
+
+### 2. Data Overview & Target Distribution
+![Data Overview](./Customer%20Transaction%20Prediction/DS6-Project-2.png)
+
+### 3. Feature Analysis & Distribution Plots
+![Feature Analysis 1](./Customer%20Transaction%20Prediction/DS6-Project-3.png)
+
+![Feature Analysis 2](./Customer%20Transaction%20Prediction/DS6-Project-4.png)
+
+### 4. Correlation Analysis
+![Correlation Analysis](./Customer%20Transaction%20Prediction/DS6-Project-5.png)
+
+### 5. Model Performance & ROC Curves
+![Model Performance 1](./Customer%20Transaction%20Prediction/DS6-Project-6.png)
+
+![Model Performance 2](./Customer%20Transaction%20Prediction/DS6-Project-7.png)
+
+### 6. Business Insights & Banking Strategy
+![Business Insights](./Customer%20Transaction%20Prediction/DS6-Project-8.png)
+
+---
+
 ## Project Structure
 
 ```
@@ -10,6 +36,16 @@ Customer-Transaction-Prediction/
 ├── Customer_Transaction_Prediction.ipynb  # Step-by-step model pipeline notebook
 ├── precompute.py                           # Helper script to train models and extract statistics
 ├── .gitignore                              # Prevents heavy dataset & model file uploads
+│
+├── Customer Transaction Prediction/        # Dashboard UI Screenshots
+│      ├── DS6-Project-1.png
+│      ├── DS6-Project-2.png
+│      ├── DS6-Project-3.png
+│      ├── DS6-Project-4.png
+│      ├── DS6-Project-5.png
+│      ├── DS6-Project-6.png
+│      ├── DS6-Project-7.png
+│      └── DS6-Project-8.png
 │
 ├── Customer_Transaction_Dashboard/         # Interactive Python Dash web app
 │      ├── app.py                           # Main layout routing and app callbacks
@@ -70,5 +106,6 @@ Open your browser and navigate to: **http://127.0.0.1:8050/**
 *Note: The values above represent metrics obtained on our validation sets.*
 
 ## Developer
-- **GitHub**: [Profile Link](https://github.com/Hetk8406)
-- **LinkedIn**: [Profile Link](https://linkedin.com/)
+- **GitHub Repository**: [DS-Project-06-Customer-Transaction-Prediction](https://github.com/Hetk8406/DS-Project-06-Customer-Transaction-Prediction)
+- **GitHub Profile**: [Hetk8406](https://github.com/Hetk8406)
+- **LinkedIn**: [Het Patel](https://linkedin.com/)

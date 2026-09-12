@@ -2,6 +2,15 @@
 
 This repository contains a professional interactive dashboard built using **Python Dash**, **Plotly**, and **Dash Bootstrap Components** to visualize data characteristics and compare machine learning model performances for predicting future customer transactions.
 
+## Dashboard Screenshots
+
+- **Dashboard Home**: `../Customer Transaction Prediction/DS6-Project-1.png`
+- **Data Overview**: `../Customer Transaction Prediction/DS6-Project-2.png`
+- **Feature Analysis**: `../Customer Transaction Prediction/DS6-Project-3.png` & `../Customer Transaction Prediction/DS6-Project-4.png`
+- **Correlation Heatmap**: `../Customer Transaction Prediction/DS6-Project-5.png`
+- **Model Performance**: `../Customer Transaction Prediction/DS6-Project-6.png` & `../Customer Transaction Prediction/DS6-Project-7.png`
+- **Business Insights**: `../Customer Transaction Prediction/DS6-Project-8.png`
+
 ## Folder Structure
 
 ```
